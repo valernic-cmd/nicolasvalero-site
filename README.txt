@@ -1,24 +1,19 @@
-NICOLASVALERO.FR — VERSION 1
+NICOLASVALERO.FR — VERSION 2
 
-Ce dossier contient la première version du site officiel.
+NOUVEAUTÉS
+- Accueil : « Romancier · Auteur de Fantasy · Créateur de l’univers de Valanda »
+- Tome 2 : Les Captives — sortie prévue 1er trimestre 2027
+- Pion Confrérie et figurines des héros
+- Figurines d'ennemis
+- Photos recto / verso de la boîte Valanda
+- Article du Dauphiné Libéré du 7 avril 2026, cliquable en grand
+- Contact agent OR&LAV : orelav.valanda@gmail.com
+- Logo OR&LAV
+- Images agrandissables au clic
 
-Fichiers principaux :
-- index.html
-- nicolas-valero.html
-- les-heritiers.html
-- valanda.html
-- le-jeu.html
-- actualites.html
-- contact.html
-- style.css
-- robots.txt
-- sitemap.xml
-- 404.html
-- assets/ : images fournies par Nicolas
-
-Prochaine étape :
-1. Créer un compte GitHub si nécessaire.
-2. Créer un dépôt public.
-3. Déposer tous les fichiers.
-4. Activer GitHub Pages.
-5. Relier nicolasvalero.fr.
+MISE À JOUR GITHUB
+1. Ouvrir le dépôt nicolasvalero-site.
+2. Add file > Upload files.
+3. Envoyer tout le contenu de ce dossier (pas le ZIP).
+4. Valider / Commit changes.
+5. GitHub Pages se mettra à jour automatiquement.

@@ -1,98 +1,32 @@
 
-:root{
-  --bg:#12100d;
-  --bg2:#1b1712;
-  --panel:#211b14;
-  --text:#f2eadc;
-  --muted:#c9bda9;
-  --gold:#d0a24e;
-  --gold2:#9a6c2d;
-  --green:#677836;
-  --wine:#6b2519;
-  --line:#3a2f23;
-  --max:1180px;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0;
-  background:linear-gradient(180deg,var(--bg),#0d0b09 70%);
-  color:var(--text);
-  font-family:Georgia,"Times New Roman",serif;
-  line-height:1.7;
-}
-img{max-width:100%;display:block}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
-.site-header{
-  position:sticky;top:0;z-index:100;
-  background:rgba(15,12,9,.94);
-  border-bottom:1px solid var(--line);
-  backdrop-filter:blur(8px)
-}
-.navbar{
-  min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px
-}
-.brand{
-  font-family:Arial,sans-serif;font-weight:700;letter-spacing:.14em;font-size:1rem
-}
-.brand small{
-  display:block;color:var(--gold);font-size:.64rem;letter-spacing:.2em;margin-top:4px
-}
-nav{display:flex;gap:18px;flex-wrap:wrap;font-family:Arial,sans-serif;font-size:.84rem}
-nav a:hover,.active{color:var(--gold)}
-.hero{
-  position:relative;min-height:79vh;display:grid;place-items:center;text-align:center;
-  overflow:hidden;border-bottom:1px solid var(--line);
-  background:
-    radial-gradient(circle at 50% 25%,rgba(208,162,78,.24),transparent 36%),
-    linear-gradient(rgba(20,15,10,.35),rgba(11,9,7,.86)),
-    url('assets/couverture-les-heritiers.png') center 42%/cover no-repeat;
-}
-.hero:before{
-  content:"";position:absolute;inset:0;
-  background:linear-gradient(90deg,rgba(10,8,6,.74),rgba(10,8,6,.3),rgba(10,8,6,.74))
-}
-.hero-inner{position:relative;z-index:1;max-width:860px;padding:85px 24px}
-.hero-logo{width:min(520px,78vw);margin:0 auto 18px;filter:drop-shadow(0 6px 12px #000)}
-.kicker{
-  font-family:Arial,sans-serif;color:#f0cf88;text-transform:uppercase;
-  letter-spacing:.22em;font-size:.78rem
-}
-h1,h2,h3{line-height:1.15}
-h1{font-size:clamp(3rem,8vw,6.2rem);margin:.2em 0}
-h2{font-size:clamp(2rem,4vw,3.25rem);margin:0 0 18px}
-h3{color:#e0b966;font-size:1.35rem}
-.hero p{font-size:1.25rem;color:#f1e7d7;text-shadow:0 2px 6px #000}
-.quote{
-  border-left:3px solid var(--gold);padding:12px 20px;
-  font-size:1.25rem;font-style:italic;color:#e7d9c4
-}
-.btn{
-  display:inline-block;margin:8px 5px 0;padding:11px 19px;border:1px solid var(--gold);
-  color:#f5d996;font-family:Arial,sans-serif;font-size:.88rem
-}
-.btn:hover{background:var(--gold);color:#1a1208}
-section{padding:78px 0;border-bottom:1px solid var(--line)}
-.lead{font-size:1.25rem;color:#dfd2bf}
-.muted{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.card{
-  background:linear-gradient(180deg,#241d16,#19140f);
-  border:1px solid var(--line);padding:26px;box-shadow:0 14px 32px rgba(0,0,0,.18)
-}
-.media-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:36px;align-items:center}
-.book-cover{max-width:390px;margin:auto;box-shadow:0 18px 42px rgba(0,0,0,.45)}
-.author-photo{border:1px solid var(--line);box-shadow:0 18px 42px rgba(0,0,0,.35)}
-.valanda-banner{background:radial-gradient(circle at 40% 20%,rgba(103,120,54,.14),transparent 40%)}
-.valanda-logo{max-width:760px;margin:0 auto 28px}
-.tag{display:inline-block;padding:4px 9px;border:1px solid var(--gold2);color:#e6c57f;
-font:normal .72rem Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
-footer{padding:36px 0;text-align:center;color:#ad9d87;font:normal .82rem Arial,sans-serif}
-.small-note{font-size:.9rem;color:#b9aa96}
-@media(max-width:900px){
-  .navbar{align-items:flex-start;flex-direction:column;padding:14px 24px}
-  nav{gap:10px}
-  .grid,.media-grid{grid-template-columns:1fr}
-  .hero{min-height:70vh}
-}
+:root{--bg:#0f0d0a;--panel:#211a13;--text:#f4ecdf;--muted:#c7b8a2;--gold:#d6a550;--gold2:#9a6a2b;--wine:#702a1d;--line:#3a2e22;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,var(--bg),#090806 75%);color:var(--text);font-family:Georgia,"Times New Roman",serif;line-height:1.7}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.site-header{position:sticky;top:0;z-index:100;background:rgba(12,10,8,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(9px)}
+.navbar{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font-family:Arial,sans-serif;font-weight:700;letter-spacing:.14em;font-size:1rem}.brand small{display:block;color:var(--gold);font-size:.64rem;letter-spacing:.19em;margin-top:4px}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-family:Arial,sans-serif;font-size:.83rem}nav a:hover,.active{color:var(--gold)}
+.hero{position:relative;min-height:82vh;display:grid;place-items:center;text-align:center;overflow:hidden;border-bottom:1px solid var(--line);background:linear-gradient(rgba(8,7,6,.25),rgba(8,7,6,.84)),url('assets/couverture-les-heritiers.webp') center 40%/cover no-repeat}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 28%,rgba(214,165,80,.17),transparent 36%),linear-gradient(90deg,rgba(8,7,6,.72),rgba(8,7,6,.18),rgba(8,7,6,.72))}
+.hero-inner{position:relative;z-index:1;max-width:900px;padding:86px 24px}.kicker{font-family:Arial,sans-serif;color:#f0cc82;text-transform:uppercase;letter-spacing:.22em;font-size:.76rem}
+h1,h2,h3{line-height:1.15}h1{font-size:clamp(3rem,8vw,6.2rem);margin:.2em 0}h2{font-size:clamp(2rem,4vw,3.2rem);margin:0 0 18px}h3{color:#e2b868;font-size:1.32rem}
+.hero-titleline{font-size:clamp(1.05rem,2.2vw,1.5rem);color:#f1d49a;letter-spacing:.05em}.hero p{font-size:1.22rem;color:#f1e7d8;text-shadow:0 2px 7px #000}
+.quote{border-left:3px solid var(--gold);padding:12px 20px;font-size:1.22rem;font-style:italic;color:#eadac3}
+.btn{display:inline-block;margin:9px 5px 0;padding:11px 19px;border:1px solid var(--gold);color:#f3d596;font-family:Arial,sans-serif;font-size:.88rem;cursor:pointer;background:transparent}.btn:hover{background:var(--gold);color:#1a1208}
+section{padding:76px 0;border-bottom:1px solid var(--line)}.lead{font-size:1.24rem;color:#e2d3be}.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:linear-gradient(180deg,#251d15,#17120e);border:1px solid var(--line);padding:24px;box-shadow:0 14px 32px rgba(0,0,0,.20)}
+.media-grid{display:grid;grid-template-columns:1fr 1.08fr;gap:36px;align-items:center}.book-cover{max-width:390px;margin:auto;box-shadow:0 18px 42px rgba(0,0,0,.48)}
+.author-photo,.press-thumb,.game-photo{border:1px solid var(--line);box-shadow:0 18px 42px rgba(0,0,0,.35)}
+.valanda-banner{background:radial-gradient(circle at 40% 20%,rgba(111,126,58,.15),transparent 40%)}.valanda-logo{max-width:760px;margin:0 auto 28px}
+.tag{display:inline-block;padding:4px 9px;border:1px solid var(--gold2);color:#e7c67f;font:normal .72rem Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+.figure-card{background:#14110e;border:1px solid var(--line);overflow:hidden}.figure-card img{width:100%;aspect-ratio:1/1;object-fit:cover;background:#0b0b0b}.figure-card .caption{padding:14px 16px}.figure-card .caption strong{color:#e2b868}
+.full-bleed-figure{max-width:1000px;margin:24px auto 0}.full-bleed-figure img{width:100%;border:1px solid var(--line);box-shadow:0 18px 46px rgba(0,0,0,.4)}
+.press-block{display:grid;grid-template-columns:.75fr 1.25fr;gap:34px;align-items:center}.press-thumb{cursor:pointer}
+.badge{display:inline-block;background:var(--wine);color:#f9dfbd;padding:5px 9px;font:700 .72rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em}
+.agent-card{display:grid;grid-template-columns:220px 1fr;gap:26px;align-items:center}.agent-logo{width:220px;border:1px solid var(--line)}
+footer{padding:36px 0;text-align:center;color:#aa9982;font:normal .82rem Arial,sans-serif}
+.modal{position:fixed;z-index:9999;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;padding:28px}.modal.open{display:flex}.modal img{max-width:96vw;max-height:92vh;object-fit:contain;box-shadow:0 0 0 1px #45331f,0 20px 80px rgba(0,0,0,.65)}
+.modal-close{position:fixed;top:16px;right:22px;border:1px solid var(--gold);background:#13100c;color:#fff;font-size:1.45rem;width:44px;height:44px;cursor:pointer}.zoomable{cursor:zoom-in}
+@media(max-width:950px){.navbar{align-items:flex-start;flex-direction:column;padding:14px 24px}nav{gap:10px}.grid,.grid-2,.grid-4,.media-grid,.press-block,.agent-card{grid-template-columns:1fr}.hero{min-height:70vh}.agent-logo{margin:auto}}

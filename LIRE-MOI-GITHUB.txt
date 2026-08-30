@@ -1,0 +1,14 @@
+NICOLAS VALERO — VERSION OPTIMISÉE POUR GITHUB PAGES
+
+Cette version contient les mêmes pages et visuels que la version précédente,
+mais les images ont été converties et compressées pour alléger fortement le site.
+
+IMPORTANT :
+1. Décompresse ce ZIP sur ton ordinateur.
+2. Dans GitHub > dépôt site Nicolasvalero > Ajouter un fichier > Téléverser des fichiers.
+3. Ouvre le dossier décompressé.
+4. Sélectionne LE CONTENU du dossier (pas le fichier ZIP lui-même).
+5. Glisse tous les fichiers et le dossier assets dans GitHub.
+6. Valide avec Commit changes.
+
+Les anciens fichiers portant les mêmes noms seront remplacés après validation.
