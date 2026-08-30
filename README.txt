@@ -17,3 +17,9 @@ MISE À JOUR GITHUB
 3. Envoyer tout le contenu de ce dossier (pas le ZIP).
 4. Valider / Commit changes.
 5. GitHub Pages se mettra à jour automatiquement.
+
+MISE À JOUR V3
+- Nouvelle couverture du tome 2 « Les Captives »
+- Mention Amazon pour le tome 1 « Les Héritiers »
+- Formats indiqués : relié et Kindle
+- Bouton « Voir sur Amazon »

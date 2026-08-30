@@ -30,3 +30,18 @@ footer{padding:36px 0;text-align:center;color:#aa9982;font:normal .82rem Arial,s
 .modal{position:fixed;z-index:9999;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;padding:28px}.modal.open{display:flex}.modal img{max-width:96vw;max-height:92vh;object-fit:contain;box-shadow:0 0 0 1px #45331f,0 20px 80px rgba(0,0,0,.65)}
 .modal-close{position:fixed;top:16px;right:22px;border:1px solid var(--gold);background:#13100c;color:#fff;font-size:1.45rem;width:44px;height:44px;cursor:pointer}.zoomable{cursor:zoom-in}
 @media(max-width:950px){.navbar{align-items:flex-start;flex-direction:column;padding:14px 24px}nav{gap:10px}.grid,.grid-2,.grid-4,.media-grid,.press-block,.agent-card{grid-template-columns:1fr}.hero{min-height:70vh}.agent-logo{margin:auto}}
+
+.amazon-box{
+  margin-top:22px;padding:18px 20px;border:1px solid #4a3928;
+  background:linear-gradient(180deg,#201a14,#15110d);
+}
+.amazon-brand{
+  display:inline-flex;align-items:center;gap:10px;font-family:Arial,sans-serif;
+  font-weight:700;font-size:1.25rem;letter-spacing:.01em;color:#f4f0e8;
+}
+.amazon-brand .smile{color:#ff9900;font-size:1.5rem;line-height:1}
+.amazon-formats{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 4px}
+.amazon-format{
+  padding:6px 10px;border:1px solid #6b5034;color:#f1d6a0;
+  font:700 .78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em
+}

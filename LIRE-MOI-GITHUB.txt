@@ -12,3 +12,7 @@ IMPORTANT :
 6. Valide avec Commit changes.
 
 Les anciens fichiers portant les mêmes noms seront remplacés après validation.
+
+VERSION V3
+Cette archive remplace la précédente et contient la nouvelle couverture des Captives
+ainsi que la mention Amazon (relié + Kindle) pour Les Héritiers.
