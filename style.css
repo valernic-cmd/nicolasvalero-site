@@ -45,3 +45,44 @@ footer{padding:36px 0;text-align:center;color:#aa9982;font:normal .82rem Arial,s
   padding:6px 10px;border:1px solid #6b5034;color:#f1d6a0;
   font:700 .78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em
 }
+
+
+/* Version 4 — Note de l’auteur */
+.author-note{
+  scroll-margin-top:90px;
+  background:linear-gradient(180deg,rgba(23,19,15,.55),rgba(10,10,10,.15));
+}
+.author-note .wrap{max-width:920px}
+.author-note h3{
+  margin-top:34px;
+  color:#e0bd77;
+  font-size:1.45rem;
+}
+.author-note p{font-size:1.04rem;line-height:1.85}
+.note-highlight{
+  margin:34px 0;
+  padding:28px;
+  border-left:3px solid #b88a47;
+  background:rgba(184,138,71,.08);
+}
+.reading-loop{
+  margin:24px 0;
+  padding:18px 24px;
+  border:1px solid #4a3928;
+  background:rgba(18,15,12,.72);
+  text-align:center;
+}
+.reading-loop p{margin:8px 0}
+.author-signature{
+  margin-top:42px;
+  padding-top:26px;
+  border-top:1px solid #4a3928;
+  text-align:center;
+}
+.final-quote{
+  font-size:clamp(1.55rem,4vw,2.35rem);
+  margin:20px 0 12px;
+}
+.home-author-note{
+  background:linear-gradient(180deg,rgba(0,0,0,.18),rgba(39,29,20,.32));
+}

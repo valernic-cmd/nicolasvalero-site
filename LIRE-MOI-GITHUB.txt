@@ -16,3 +16,7 @@ Les anciens fichiers portant les mêmes noms seront remplacés après validation
 VERSION V3
 Cette archive remplace la précédente et contient la nouvelle couverture des Captives
 ainsi que la mention Amazon (relié + Kindle) pour Les Héritiers.
+
+VERSION V4 — NOTE DE L'AUTEUR
+Cette version ajoute la note « Pourquoi Valanda ? » et un accès direct depuis l'accueil.
+Décompresse l'archive, puis téléverse le CONTENU du dossier dans GitHub et valide les modifications.
