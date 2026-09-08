@@ -1,22 +1,12 @@
-NICOLAS VALERO — VERSION OPTIMISÉE POUR GITHUB PAGES
+MISE À JOUR GITHUB — VERSION 5
 
-Cette version contient les mêmes pages et visuels que la version précédente,
-mais les images ont été converties et compressées pour alléger fortement le site.
+1. Décompresse cette archive sur ton ordinateur.
+2. Dans ton dépôt GitHub nicolasvalero-site, ouvre l’onglet Code.
+3. Clique sur Ajouter un fichier > Téléverser des fichiers.
+4. Glisse TOUT LE CONTENU du dossier décompressé (pas le fichier ZIP).
+5. Attends que tous les fichiers soient chargés.
+6. Message conseillé : Mise à jour V5 — bio, Octogônes, article et vidéo
+7. Valide les modifications.
+8. Attends 1 à 3 minutes puis actualise https://nicolasvalero.fr
 
-IMPORTANT :
-1. Décompresse ce ZIP sur ton ordinateur.
-2. Dans GitHub > dépôt site Nicolasvalero > Ajouter un fichier > Téléverser des fichiers.
-3. Ouvre le dossier décompressé.
-4. Sélectionne LE CONTENU du dossier (pas le fichier ZIP lui-même).
-5. Glisse tous les fichiers et le dossier assets dans GitHub.
-6. Valide avec Commit changes.
-
-Les anciens fichiers portant les mêmes noms seront remplacés après validation.
-
-VERSION V3
-Cette archive remplace la précédente et contient la nouvelle couverture des Captives
-ainsi que la mention Amazon (relié + Kindle) pour Les Héritiers.
-
-VERSION V4 — NOTE DE L'AUTEUR
-Cette version ajoute la note « Pourquoi Valanda ? » et un accès direct depuis l'accueil.
-Décompresse l'archive, puis téléverse le CONTENU du dossier dans GitHub et valide les modifications.
+Important : le fichier vidéo a été optimisé pour rester léger et compatible avec GitHub.

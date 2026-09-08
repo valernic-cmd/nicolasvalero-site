@@ -86,3 +86,8 @@ footer{padding:36px 0;text-align:center;color:#aa9982;font:normal .82rem Arial,s
 .home-author-note{
   background:linear-gradient(180deg,rgba(0,0,0,.18),rgba(39,29,20,.32));
 }
+
+/* V5 — événements, tests et vidéo */
+.valanda-video{display:block;width:100%;max-width:1100px;margin:28px auto 0;border-radius:18px;border:1px solid rgba(212,169,78,.38);box-shadow:0 24px 70px rgba(0,0,0,.45);background:#000}
+.convention-gallery{margin-top:28px}.legacy-game{margin-top:28px}.legacy-game img{max-height:650px;object-fit:contain;background:#0c1018}.upcoming-card{max-width:850px;margin:0 auto;text-align:center;padding:38px}.cinematic{background:linear-gradient(180deg,rgba(8,12,20,.2),rgba(18,24,38,.72),rgba(8,12,20,.2))}
+@media(max-width:760px){.valanda-video{border-radius:10px}.upcoming-card{padding:24px}}
